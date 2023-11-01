@@ -14,7 +14,21 @@
 				"configurationType": "MANUAL",
 				"home": "postgresql-x64-16",
 				"type": "dev",
-				"provider-properties": {},
+				"auth-model": "native"
+			}
+		},
+		"mysql8-18b8c870b12-79d1ecad5902d9ce": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "localhost",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"url": "jdbc:mysql://localhost:3306/",
+				"configurationType": "MANUAL",
+				"home": "C:\\Program Files\\MySQL\\MySQL Server 8.0",
+				"type": "dev",
 				"auth-model": "native"
 			}
 		}

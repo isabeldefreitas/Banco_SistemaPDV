@@ -1,20 +1,18 @@
 {
 	"folders": {},
 	"connections": {
-		"postgres-jdbc-18b67e62ea8-d03152428099ef6": {
-			"provider": "postgresql",
-			"driver": "postgres-jdbc",
-			"name": "postgres",
+		"mysql8-18b8c870b12-79d1ecad5902d9ce": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "localhost",
 			"save-password": true,
 			"configuration": {
 				"host": "localhost",
-				"port": "5432",
-				"database": "postgres",
-				"url": "jdbc:postgresql://localhost:5432/postgres",
+				"port": "3306",
+				"url": "jdbc:mysql://localhost:3306/",
 				"configurationType": "MANUAL",
-				"home": "postgresql-x64-16",
+				"home": "C:\\Program Files\\MySQL\\MySQL Server 8.0",
 				"type": "dev",
-				"provider-properties": {},
 				"auth-model": "native"
 			}
 		}
